@@ -1,0 +1,34 @@
+<% include partials/head %>
+
+<!-- PAGE CONTENT -->
+<div class="container-fluid content">
+    <!-- Search Bar -->
+    <div class="row" id="hero-container">
+        <div id="hero-text" class="v-align-center h-align-center container-fluid">
+            <div class="form-group col-md-8 offset-md-2">
+                <label for="search">Search</label>
+                <input class="form-control" type="text" id="search" name="search" placeholder="Enter a city" />
+                <ul id="results" style="color: white !important;"></ul>
+            </div>
+            
+            <style>
+                ul#results {
+                    list-style-type: none;
+                    text-align: left;
+                }
+                ul#results > li {
+                    list-style-type: none;
+                    text-align: left;
+                }
+            </style>
+        </div>
+    </div>
+</div>
+
+<div class="container container-main content bg-dark">
+    <div class="row">
+    </div>
+</div>
+
+<!-- END PAGE CONTENT -->
+<% include partials/end-scripts %>

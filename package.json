@@ -1,0 +1,31 @@
+{
+  "name": "mean-weather",
+  "version": "1.0.0",
+  "description": "A simple weather app built on the MEAN stack",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "expressjs": "^1.0.1",
+    "firebase": "^4.10.1",
+    "jquery": "^3.3.1",
+    "less": "^3.0.1",
+    "nconf": "^0.10.0",
+    "querystring": "^0.2.0",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacobScott/MeanWeather.git"
+  },
+  "author": "Jacob Scott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JacobScott/MeanWeather/issues"
+  },
+  "homepage": "https://github.com/JacobScott/MeanWeather#readme"
+}

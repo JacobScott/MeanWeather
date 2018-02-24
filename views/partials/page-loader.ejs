@@ -1,0 +1,90 @@
+<!-- LOADER-->
+<style class="page-loader">
+    #loader {
+        width: 100%;
+        height: 100%;
+        background-color: #162025;
+        z-index: 5000;
+        position: fixed;
+        transition: all 2s ease;
+        opacity: 1.0;
+    }
+    
+    #loader > p {
+        text-align: center;
+        color: white;
+        opacity: 0.75;
+        font-family: 'Raleway';
+        position: relative;
+        font-size: 1.75em;
+    }
+    
+    #loader > p > span {
+        color: white;
+    }
+    
+    #loader.close {
+        opacity: 0;
+        height: 0%;
+    }
+    
+    #spinner {
+      display: block;
+      position: relative;
+      width: 96px;
+      height: auto;
+      left: auto;
+      margin: 0;
+    }
+</style class="page-loader">
+<div id="loader" class="page-loader">
+    
+    <!-- Spinner -->
+    <svg id="spinner" data-name="Layer 1" class="v-align-center h-align-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+    <defs>
+      <style>
+        .cls-1, .cls-2 {
+          fill: none;
+          stroke: aqua;
+          stroke-linecap: round;
+          stroke-width: 3px;
+        }
+
+        .cls-1 {
+          stroke-linejoin: round;
+        }
+
+        .cls-2 {
+          stroke-miterlimit: 62;
+        }
+
+        #spinner {
+          /*width: 96px;
+          height: 116px;*/
+          opacity: 1.0;
+          margin: 0;
+          padding: 4px;
+          stroke-dasharray: 100; /* Original: 142 */
+          stroke-dashoffset: 200; /* Original: 136 */
+          animation: dash 1.25s cubic-bezier(.66,.17,.44,.88) /*linear */ forwards 0;
+         /*animation: dash 1s ease;*/
+          animation-iteration-count: infinite;
+          display: relative;
+        }
+
+        @keyframes dash {
+          to {
+            /* opacity: 1.0; */
+            stroke-dashoffset: 0;
+          }
+        }
+      </style>
+    </defs>
+    <g>
+      <circle class="cls-1" cx="25" cy="25" r="25">
+      </circle>
+    </g>
+  </svg>
+    
+    <p class="">Loading<span></span></p>
+</div>
