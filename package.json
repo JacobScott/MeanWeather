@@ -12,7 +12,8 @@
     "less": "^3.0.1",
     "nconf": "^0.10.0",
     "querystring": "^0.2.0",
-    "request": "^2.83.0"
+    "request": "^2.83.0",
+    "body-parser": "^1.18.2"
   },
   "devDependencies": {},
   "scripts": {

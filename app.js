@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({
 
 // Globals
 var gbl = {
-    appName: 'JSM - Weather',
+    appName: 'JSM - MeanWeather',
     request: require('request'),
     querystring: require('querystring'),
     config: require('./config')
